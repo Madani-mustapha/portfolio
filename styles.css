@@ -1,0 +1,222 @@
+.body{
+    background-color: black;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-brand {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: brown;
+}
+/******* Banner ********/
+.banner{
+    position: relative;
+    background-image: url(src/laptop_banner.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover ;
+    background-position: center;
+    padding-top: 250px;
+}
+.row{
+    justify-content:center;
+    text-align: center;
+}
+.col-sm-8 {
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    justify-content: center;
+    
+}
+/******* About ME ********/
+.banner_about-me{
+    position: relative;
+    color: antiquewhite;
+    min-height: 10vh;
+    padding: 20px;
+}
+.row_about-me{
+    display: grid;
+    grid-template-areas: "photo text";
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    column-gap: 5%;
+    
+}
+.about_me_photo{
+    grid-area: photo;
+}
+.about_me_photo img{
+   height: 50%;
+    max-width:100% ;
+    border-radius: 20px;
+}
+.about_me_text{
+    grid-area: text;
+    color: black;
+    width: 80%;
+}
+
+/******* Competences ********/
+.title_competences h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(42, 1, 71);
+}
+.title_competences p{
+    text-align: center;
+}
+
+.lang_grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.lang:hover{
+    scale: 1.4;
+    transition-duration: 0.8s;
+    transform: translate(0px, -15px);
+}
+
+/******* Experiences ********/
+.title_experiences h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(42, 1, 71);
+}
+.title_experiences p{
+    text-align: center;
+}
+
+
+.experiences_elems{
+    display: grid;
+    grid-template-areas: "aa bb"
+     "cc dd"
+     "ee ff"
+     ;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.elem1{
+    grid-area: aa;
+    text-align: center;
+}
+
+.elem2{
+    text-align: center;
+}
+
+.elem3{
+    grid-area: cc;
+    text-align: center;
+}
+
+.elem4{
+    grid-area: dd;
+}
+
+.elem5{
+    grid-area: ee;
+}
+.elem6{
+    grid-area: ff;
+    text-align: center;
+}
+.class_img{
+    width: 100%;
+}
+.button_github{
+    width: 50%;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 20px;
+    border: 2px;
+    padding: 5px;
+    background-color: aquamarine;
+
+}
+.test_grid{
+    display: grid;
+    grid-template-areas: " aaa bbb ccc";
+    background-color: aliceblue;
+    justify-content: space-evenly;
+}
+.test1{
+    grid-area: aaa;
+}
+.test2{
+    grid-area: bbb;
+}
+.test3{
+    grid-area: ccc;
+}
+.logos_languages{
+    max-height: 15vh;
+}
+
+.test_grid2{
+    display: grid;
+    grid-template-areas: " aaa bbb";
+    background-color: aliceblue;
+    justify-content: space-evenly;
+
+}
+.test2_1{
+    grid-area: aaa;
+}
+.test2_2{
+    grid-area: bbb;
+    max-height: 10vh;
+}
+
+/******* Contact Us ********/
+.container_contactus{
+    margin-bottom: 20px;
+
+}
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
