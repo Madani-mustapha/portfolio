@@ -60,9 +60,8 @@ header{
     grid-area: photo;
 }
 .about_me_photo img{
-   height: 50%;
-    max-width:100% ;
-    border-radius: 20px;
+   height: 300px;
+    width:300px ;
 }
 .about_me_text{
     grid-area: text;
@@ -219,4 +218,9 @@ label {
 .card{
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+/** Footer **/
+.footer-main{
+    text-align: center;
 }
